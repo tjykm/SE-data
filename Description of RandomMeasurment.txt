@@ -1,0 +1,22 @@
+====================================================================
+The first line in "RandomMeasurement_XXX.txt" consists of the number of random measurements (including independent and dependent random measurements) and the number of random line parameters.
+
+====================================================================
+The second part is the parameters of the random measurements and the data format is as follows.
+
+       1                 2              3...
+Measurement No.    Distribution    Parameters
+
+For "Normal" distribution, the "Parameters" consists of 1)the expectation; 2)the standard deviation.
+For "Weibull" distribution, the "Parameters" consists of 1)(NO-USE); 2)(NO-USE); 3)scale parameter; 4)shape parameter; 5)(NO-USE); 6)rated active power of wind farm; 7)cut-in wind speed; 8)rated wind speed; 9)cut-off wind speed.
+For "Beta" distribution, the "Parameters" consists of 1)(NO-USE); 2)rated active power of photovoltaic farm; 3)the alpha parameter; 4)the beta parameter.
+
+Note: "Dependent" distribution is used to describe those reactive power injections related to active power injections.
+The "Parameters" consists of the random measurement number of the corresponding active power injection and the ratio (Q/P). 
+====================================================================
+The third part is the parameters of the random line parameters and the data format is as follows.
+
+   1            2              3                 4
+Line No.    Ratio(X/R)    Expectation    Standard deviation
+
+Note: The random parameter of a transmission line is its resistance(R) with its reactance(X) being R*Ratio as R changes.
