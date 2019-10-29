@@ -6,7 +6,7 @@ The MVA base of the modified IEEE 118-bus system is 100 MVA.
 The first line of this file is the number of branches of the system.
 The following part is the data of each branch and the data format is as follows.
 
-	 1			  2                             3							   4          5		    6                        7                      8         9
+     1            2                             3                              4          5         6                     7                          8         9
 "From" bus    "To" bus    Branch type(0-transmission line, 1-transformer)    NO-USE    R(p.u.)   X(p.u.)    Y0(p.u.) or transformation ratio k    NO-USE    NO-USE
 
 Note: Shunt elements are considered as branches that their "From" bus is identical to the "To" bus and their susceptance(p.u.) is stored in column 6.
@@ -31,11 +31,11 @@ Measurement type table:
 
 Measurement type 1    Measurement type 2    Measurement type
         1                      1            Active power injected at bus i (p.u.) (transformer)
-		1                      2            Reactive power injected at bus i (p.u.) (transformer) 
-		2                      1            Active power injected at bus i (p.u.) (transmission line)
-		2                      2            Reactive power injected at bus i (p.u.) (transmission line)
-		3                      1            Active power injection (p.u.)
-		3                      2            Reactive power injection (p.u.)
-		3                      5            Voltage magnitude (p.u.)
-		4                      1            Active power consumption (p.u.) of shunt element at bus i
-		4                      2            Reactive power consumption (p.u.) of shunt element at bus i
+	1                      2            Reactive power injected at bus i (p.u.) (transformer) 
+	2                      1            Active power injected at bus i (p.u.) (transmission line)
+	2                      2            Reactive power injected at bus i (p.u.) (transmission line)
+	3                      1            Active power injection (p.u.)
+	3                      2            Reactive power injection (p.u.)
+	3                      5            Voltage magnitude (p.u.)
+	4                      1            Active power consumption (p.u.) of shunt element at bus i
+	4                      2            Reactive power consumption (p.u.) of shunt element at bus i
