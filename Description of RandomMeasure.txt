@@ -1,5 +1,5 @@
 ====================================================================
-The first line in "RandomMeasurement_XXX.txt" consists of the number of random measurements (including independent and dependent random measurements) and the number of random line parameters.
+The first line in "RandomMeasure.txt" consists of the number of random measurements (including independent and dependent random measurements) and the number of random line parameters.
 
 ====================================================================
 The second part is the parameters of the random measurements and the data format is as follows.
