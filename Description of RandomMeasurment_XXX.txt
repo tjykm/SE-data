@@ -17,6 +17,6 @@ The "Parameters" consists of the random measurement number of the corresponding 
 The third part is the parameters of the random line parameters and the data format is as follows.
 
    1            2              3                 4
-Line No.    Ratio(X/R)    Expectation    Standard deviation
+Line No.    Ratio(R/X)    Expectation    Standard deviation
 
-Note: The random parameter of a transmission line is its resistance(R) with its reactance(X) being R*Ratio as R changes.
+Note: The random parameter of a transmission line is its reactance(X) with its resistance(R) equal to X*Ratio as X changes.
