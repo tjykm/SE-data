@@ -1,5 +1,5 @@
 ====================================================================
-The MVA base of the modified IEEE 118-bus system is 100 MVA.
+The MVA base is 100 MVA.
 
 ====================================================================
 "branch.txt" is the branch data of the modified IEEE 118-bus system.
