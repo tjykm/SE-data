@@ -1,0 +1,16 @@
+=======================================================================
+The file "MeasureCorrelation.txt" describes the correlation of the random variables in "RandomMeasure.txt".
+=======================================================================
+The data format of "MeasureCorrelation.txt" is as follows.
+
+(block 1)
+#(number of the first group of correlative random variables)
+
+(The linear correlation matrix of the first group of correlative random variables)
+
+(block 2) (if existed)
+#(number of the second group of correlative random variables)
+
+(The linear correlation matrix of the second group of correlative random variables)
+
+......
