@@ -19,4 +19,4 @@ The third part is the parameters of the random line parameters and the data form
    1            2              3                 4
 Line No.    Ratio(R/X)    Expectation    Standard deviation
 
-Note: The random parameter of a transmission line is its reactance(X) with its resistance(R) equal to X*Ratio as X changes.
+Note: The random parameter of a transmission line is its reactance(X) with its resistance(R) = X*Ratio as X changes.
